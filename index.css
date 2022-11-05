@@ -14,7 +14,7 @@ a.badge-base__link.LI-simple-link {display: none;}
 .subject {text-shadow: #5b5b5b99 0px 0px 7px;}
 .hidden {display: none;}
 
-
+article {width: auto;}
 header h1 {background: linear-gradient(45deg, #8979db, #e42c64);text-align: center;display: block; margin: 5px;padding: 1em;font-weight: bold;color: aliceblue;width: auto;}
 main {display: flex;width: 80%;margin: auto;}
 h2 {text-shadow: 1px 1px 3px rgb(126, 175, 244) ;padding-bottom: 5px;font-family: 'Fredericka the Great', cursive;}
