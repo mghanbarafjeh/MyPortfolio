@@ -30,4 +30,6 @@ th {padding-top:10px;height: 50px;}
 
 footer {text-align: right;font-size: small;}
 
+@media screen and (max-width:800px){} 
+
           
