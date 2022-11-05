@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Cormorant+Infant&family=Fredericka+the+Great&family=Kalam:wght@300&family=Paytone+One&family=Special+Elite&display=swap');
+#brief p {font-family: 'Kalam', cursive;font-size:x-large;}
+#educations p{font-style: italic;font-weight:500;}
+#educations a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
+#Linkedin-card img {height: max-content; width: max-content;}
+#Linkedin-card {width: 20%;display: block;float: right;}
+#technical-skills li {list-style-type: none;padding-left: 6px;text-align:left;height:40px;}
+#experiences a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
+.left {width: 80%;padding: 10px;display: block;float: left;}
+a.badge-base__link.LI-simple-link {display: none;}
+.seperator {padding:3px;}
+.period {float: right;}
+.emphasis {font-weight: 500;color: rgb(155, 2, 7);}
+.subject {text-shadow: #5b5b5b99 0px 0px 7px;}
+
+header h1 {background: linear-gradient(45deg, #8979db, #e42c64);text-align: center;display: block; margin: 5px;padding: 1em;font-weight: bold;color: aliceblue;}
+main {display: flex;width: 80%;margin: auto;}
+h2 {text-shadow: 1px 1px 3px rgb(126, 175, 244) ;padding-bottom: 5px;font-family: 'Fredericka the Great', cursive;}
+h3 {color: rgb(112, 141, 239);padding-top: 8px;}
+article h4 {text-decoration: underline;text-decoration-color: rgb(118, 118, 118);font-family: 'Paytone One', sans-serif;color:rgb(97, 97, 97);}
+p {width: auto;}
+section {border-bottom: 2px dotted slategray;width: 100%;margin-top:7px;padding-bottom: 15px;}
+ul {padding-left: 1em;}
+li {list-style-type:disc; font-size:large;}
+
+table {width: 100%;border: 1px solid black;margin-bottom: 4px;}
+td {width: auto;border: 1px dotted black;}
+thead {background:linear-gradient(60deg,#708def,#4059ad7e);color: midnightblue;}
+th {padding-top:10px;height: 50px;}
+
+footer {text-align: right;font-size: small;}
+
+          
