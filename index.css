@@ -3,10 +3,9 @@
 #educations p{font-style: italic;font-weight:500;}
 #educations a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
 #Linkedin-card img {height: max-content; width: max-content;}
-#Linkedin-card {width: 20%;display: block;float: right;}
+#Linkedin-card {width: 20%;}
 #technical-skills li {list-style-type: none;padding-left: 6px;text-align:left;}
 #experiences a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
-/* .left {width: 80%;padding: 10px;display: block;float: left;} */
 a.badge-base__link.LI-simple-link {display: none;}
 .seperator {padding:3px;}
 .period {float: right;}
@@ -14,8 +13,9 @@ a.badge-base__link.LI-simple-link {display: none;}
 .subject {text-shadow: #5b5b5b99 0px 0px 7px;}
 .hidden {display: none;}
 
-article {width: auto;}
-header h1 {background: linear-gradient(45deg, #8979db, #e42c64);text-align: center;display: block; margin: 5px;padding: 1em;font-weight: bold;color: aliceblue;width: auto;}
+
+header {min-width: 100%}
+header h1 {background: linear-gradient(45deg, #8979db, #e42c64);text-align: center;display: block; margin: 5px;padding: 1em;font-weight: bold;color: aliceblue;width:100%;}
 main {display: flex;width: 80%;margin: auto;}
 h2 {text-shadow: 1px 1px 3px rgb(126, 175, 244) ;padding-bottom: 5px;font-family: 'Fredericka the Great', cursive;}
 h3 {color: rgb(112, 141, 239);padding-top: 8px;}
@@ -26,9 +26,11 @@ li {list-style-type:disc; font-size:large;}
 table li {padding: 10px;}
 
 
-table {width:100%;border: 1px solid black;margin-bottom: 4px;}
+table {width:100%;min-width:auto;border: 1px solid black;margin-bottom: 4px;}
 td {border: 1px dotted rgb(0, 0, 0);vertical-align: top;width: max-content;}
 thead {background:linear-gradient(60deg,#708def,#4059ad7e);color: midnightblue;}
 th {padding-top:10px;height: 50px;}
 
 footer {text-align: right;font-size: small;}
+
+          
