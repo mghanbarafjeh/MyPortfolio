@@ -6,7 +6,7 @@
 #Linkedin-card {width: 20%;display: block;float: right;}
 #technical-skills li {list-style-type: none;padding-left: 6px;text-align:left;}
 #experiences a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
-.left {width: 80%;padding: 10px;display: block;float: left;}
+/* .left {width: 80%;padding: 10px;display: block;float: left;} */
 a.badge-base__link.LI-simple-link {display: none;}
 .seperator {padding:3px;}
 .period {float: right;}
