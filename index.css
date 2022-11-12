@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Cormorant+Infant&family=Fredericka+the+Great&family=Just+Another+Hand&family=Kalam:wght@300&family=Paytone+One&family=Special+Elite&display=swap');
 #brief p {font-family: 'Kalam', cursive;font-size:x-large;}
 #educations p{font-style: italic;font-weight:500;}
-#educations a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;padding-right: 0px;}
+#educations a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
 #Linkedin-card img {height: max-content; width: max-content;}
-#Linkedin-card {float: right;width: min-content;} 
+#Linkedin-card {width:auto;float:right;display: block;} 
 #technical-skills li {list-style-type: none;padding-left: 6px;text-align:left;}
 #experiences a{color:rgb(112, 141, 239);text-decoration: none;font-weight: 400;}
 a.badge-base__link.LI-simple-link {display: none;}
 .seperator {padding:3px;}
-.period {float: right;}
+.period {text-align: right;display:block;}
 .emphasis {font-weight: 500;color: rgb(155, 2, 7);}
 .subject {text-shadow: #5b5b5b99 0px 0px 7px;}
 .hidden {display: none;}
+.fa-solid {margin: 10px}
+.fa-solid:hover, h2:hover{animation: shake 1.5s;animation-iteration-count: infinite;}
 
 
 header {height:100px;background: linear-gradient(45deg, #8979db, #e42c64);}
-article {width: 85%;margin-left: 2ch;padding-top: 1px;}
+article {margin-left: 2ch;padding-top: 1px;}
 header h1 {text-align: center ;color: aliceblue;padding-top: 30px;} 
 h2 {text-shadow: 1px 1px 3px rgb(126, 175, 244) ;padding-bottom: 15px;font-family: 'Fredericka the Great', cursive;margin:0px}
 h3 {color: rgb(112, 141, 239);}
@@ -35,4 +37,21 @@ table li {margin-left: 4px;padding: 5px;}
 table ol {padding-left: 0px;}
 
 
+
 footer {text-align: right;font-size: small;}
+
+
+/* ------------------------- Animation ------------------------ */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
