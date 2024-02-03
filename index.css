@@ -14,6 +14,12 @@ a.badge-base__link.LI-simple-link {display: none;}
 .hidden {display: none;}
 .fa-solid {margin: 10px}
 .fa-solid:hover, h2:hover{animation: shake 1.5s;animation-iteration-count: infinite;}
+#ncl img {width: 30px;}
+.azad img {width: 40px;}
+.bosal img {width: 70px;}
+.aras img {width: 80px;}
+.ivf img {width:80px;}
+
 
 
 header {height:100px;background: linear-gradient(45deg, #8979db, #e42c64);}
